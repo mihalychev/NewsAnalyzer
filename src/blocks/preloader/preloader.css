@@ -1,0 +1,9 @@
+@import url(./__desc/preloader__desc.css);
+@import url(./__icon/preloader__icon.css);
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,20 @@
+.menu__title {
+  font-family: 'RobotoSlab';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.menu__title_theme_dark {
+  color: #1A1B22;
+}
+
+@media screen and (max-width: 600px) {
+  .menu__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

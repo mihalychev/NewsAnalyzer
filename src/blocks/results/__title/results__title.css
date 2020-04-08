@@ -1,0 +1,41 @@
+.results__title {
+  font-family: RobotoSlab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1A1B22;
+  margin: 0;
+  padding: 0;
+}
+
+.results__title_page_about {
+  max-width: 500px;
+  padding-bottom: 40px;
+}
+
+.results__title_page_analytics {
+  text-align: left;
+  margin-bottom: 48px;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 710px) {
+  .results__title {
+    margin-bottom: 16px;
+  }
+
+  .results__title_page_analytics {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .results__title {
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 336px;
+  }
+}

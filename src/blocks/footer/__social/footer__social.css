@@ -1,0 +1,7 @@
+.footer__social {
+  text-decoration: none;
+}
+
+.footer__social:not(:last-child) {
+  margin-right: 28px;
+}

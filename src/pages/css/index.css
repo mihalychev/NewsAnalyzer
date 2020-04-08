@@ -1,0 +1,28 @@
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/menu/menu.css);
+@import url(../../blocks/nav/nav.css);
+@import url(../../blocks/search-form/search-form.css);
+@import url(../../blocks/results/results.css);
+@import url(../../blocks/preloader/preloader.css);
+@import url(../../blocks/not-found/not-found.css);
+@import url(../../blocks/author/author.css);
+@import url(../../blocks/footer/footer.css);
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts.css);
+
+.hidden {
+  display: none;
+}
+
+.inner {
+  max-width: 1232px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1312px) {
+  .inner {
+    max-width: 1440px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}

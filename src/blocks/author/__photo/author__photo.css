@@ -1,0 +1,12 @@
+.author__photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .author__photo {
+    margin-bottom: 24px;
+  }
+}

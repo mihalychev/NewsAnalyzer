@@ -1,0 +1,14 @@
+.author__photo-container {
+  width: 50%;
+  max-width: 464px;
+  min-width: 232px;
+  max-height: 464px;
+  margin: 0 56px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  .author__photo-container {
+    width: 272px;
+    margin: auto;
+  }
+}

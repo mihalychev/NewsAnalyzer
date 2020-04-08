@@ -1,0 +1,7 @@
+@media screen and (max-width: 700px) {
+  .footer__contacts {
+    position: absolute;
+    right: 16px;
+    top: 32px;
+  }
+}

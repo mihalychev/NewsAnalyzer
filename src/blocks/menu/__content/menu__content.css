@@ -1,0 +1,11 @@
+.menu__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .menu__content.inner {
+    padding: 0 16px;
+  }
+}

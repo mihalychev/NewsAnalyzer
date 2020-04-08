@@ -1,0 +1,8 @@
+.results__cell {
+  min-width: 288px;
+  width: 33%;
+  height: 288px;
+  background-color: #fff;
+  margin-right: 15px;
+  border-radius: 16px;
+}

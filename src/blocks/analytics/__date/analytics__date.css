@@ -1,0 +1,17 @@
+.analytics__date {
+  width: 104px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.analytics__date_head {
+  width: 104px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+  padding-bottom: 12px;
+}

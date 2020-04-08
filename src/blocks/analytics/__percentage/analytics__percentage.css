@@ -1,0 +1,10 @@
+.analytics__percentage {
+  display: block;
+  position: absolute;
+  left: 6px;
+  top: 5px;
+
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+}

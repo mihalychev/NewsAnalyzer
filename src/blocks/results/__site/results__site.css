@@ -1,0 +1,24 @@
+.results__site {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 24px;
+  left: 24px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  color: #B6BCBF;
+}
+
+@media screen and (max-width: 800px) {
+  .results__site {
+    bottom: 16px;
+    left: 16px;
+  }
+}

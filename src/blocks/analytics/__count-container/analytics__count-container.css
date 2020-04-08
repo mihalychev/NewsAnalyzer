@@ -1,0 +1,17 @@
+.analytics__count-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+.analytics__count-container_foot {
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__count-container {
+    display: none;
+  }
+}
