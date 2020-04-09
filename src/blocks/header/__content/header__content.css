@@ -1,0 +1,29 @@
+.header__content {
+  display: block;
+  max-width: 608px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.header__content_theme_dark {
+  margin: 0;
+  max-width: 815px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__content {
+    padding: 30px 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__content {
+    max-width: 452px;
+    padding: 30px 16px;
+  }
+
+  .header__content_theme_dark {
+    max-width: 815px;
+    padding: 30px 16px;
+  }
+}

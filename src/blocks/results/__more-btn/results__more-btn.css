@@ -1,0 +1,25 @@
+.results__more-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 80px;
+  background-color: #fff;
+  padding: 20px 84px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  transition: background .1s linear;
+}
+
+.results__more-btn:hover {
+  background-color: rgb(0, 0, 0, .1);
+}
+
+@media screen and (max-width: 800px) {
+  .results__more-btn {
+    padding: 16px 60px;
+  }
+}

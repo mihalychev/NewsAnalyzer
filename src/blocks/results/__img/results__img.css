@@ -1,0 +1,12 @@
+.results__img {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+}
+
+.results__img_page_about {
+  max-width: 92px;
+}

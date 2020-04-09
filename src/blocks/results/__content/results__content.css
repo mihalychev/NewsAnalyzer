@@ -1,0 +1,31 @@
+.results__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.results__content_page_about {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.results__content_page_analytics {
+  display: block;
+}
+
+@media screen and (max-width: 1150px) {
+  .results__content_page_about {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .results__content_page_about.inner {
+    padding: 0 16px;
+  }
+
+  .results__content_page_analytics.inner {
+    padding: 0 16px;
+  }
+}

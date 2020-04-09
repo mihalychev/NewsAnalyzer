@@ -1,0 +1,18 @@
+@import url(./__contacts/footer__contacts.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__social/footer__social.css);
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .footer.inner {
+    flex-direction: column-reverse;
+    padding: 20px 16px;
+    align-items: flex-start;
+  }
+}

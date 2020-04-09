@@ -1,0 +1,33 @@
+@import url(./__about/author__about.css);
+@import url(./__paragraph/author__paragraph.css);
+@import url(./__photo/author__photo.css);
+@import url(./__title/author__title.css);
+@import url(./__photo-container/author__photo-container.css);
+
+.author {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.author_page_about.inner {
+  margin-bottom: 62px;
+}
+
+@media screen and (max-width: 780px) {
+  .author.inner {
+    padding: 40px 24px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .author.inner {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px 44px 16px;
+  }
+
+  .author_page_about.inner {
+    margin-bottom: 0px;
+  }
+}

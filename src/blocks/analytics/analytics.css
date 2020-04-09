@@ -1,0 +1,18 @@
+@import url(./__bar-container/analytics__bar-container.css);
+@import url(./__bar/analytics__bar.css);
+@import url(./__header/analytics__header.css);
+@import url(./__date/analytics__date.css);
+@import url(./__corner/analytics__corner.css);
+@import url(./__count/analytics__count.css);
+@import url(./__table-content/analytics__table-content.css);
+@import url(./__count-container/analytics__count-container.css);
+@import url(./__percentage/analytics__percentage.css);
+
+.analytics {
+  table-layout: fixed;
+  width: 100%;
+  font-family: Roboto;
+  border-collapse: collapse;
+  border-spacing: 1;
+  border: none;
+}

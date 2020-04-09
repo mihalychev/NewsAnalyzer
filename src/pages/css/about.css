@@ -1,0 +1,37 @@
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/menu/menu.css);
+@import url(../../blocks/nav/nav.css);
+@import url(../../blocks/results/results.css);
+@import url(../../blocks/author/author.css);
+@import url(../../blocks/footer/footer.css);
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts.css);
+
+.hidden {
+  display: none;
+}
+
+.inner {
+  max-width: 1232px;
+  margin: auto;
+}
+
+.code {
+  background-color: #f5f6f7;
+  border: 1px solid #D1D2D6;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1312px) {
+  .inner {
+    /* max-width: 1440px; */
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .inner {
+    padding: 16px;
+  }
+}

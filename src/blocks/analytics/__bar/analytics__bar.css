@@ -1,0 +1,15 @@
+.analytics__bar {
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 24px;
+}
+
+.analytics__bar::-webkit-progress-bar {
+  background-color: #f5f6f7;
+}
+
+.analytics__bar::-webkit-progress-value {
+  background-color: #2f71e5;
+}

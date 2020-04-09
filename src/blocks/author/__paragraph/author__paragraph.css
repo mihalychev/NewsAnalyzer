@@ -1,0 +1,19 @@
+.author__paragraph {
+  max-width: 600px;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  margin: 0;
+}
+
+.author__paragraph:not(:last-child) {
+  margin: 0 0 24px 0;
+}
+
+@media screen and (max-width: 780px) {
+  .author__paragraph:not(:last-child) {
+    margin: 0;
+  }
+}

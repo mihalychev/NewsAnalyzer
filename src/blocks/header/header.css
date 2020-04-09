@@ -1,0 +1,12 @@
+@import url(./__content/header__content.css);
+@import url(./__desc/header__desc.css);
+@import url(./__title/header__title.css);
+@import url(./__route/header__route.css);
+
+.header {
+  background: center / cover no-repeat url(../../images/header_bg.jpg);
+}
+
+.header_theme_dark {
+  background: #fff;
+}
