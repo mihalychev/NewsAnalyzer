@@ -1,4 +1,4 @@
-# NewsAnalyzer v0.0.1
+# NewsAnalyzer
 
 https://simonion19.github.io/NewsAnalyzer/
 
