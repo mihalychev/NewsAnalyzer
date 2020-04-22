@@ -3,11 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 90px 0;
 }
 
 .results__content_page_about {
   flex-direction: row;
   align-items: flex-start;
+  padding: 72px 16px 64px 16px;
 }
 
 .results__content_page_analytics {
@@ -20,12 +22,31 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .results__content_page_about {
+    padding: 40px 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .results__content_page_about.inner {
-    padding: 0 16px;
+    padding: 32px 16px 0 16px;
   }
 
   .results__content_page_analytics.inner {
     padding: 0 16px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .results__content {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .results__content {
+    padding: 32px 0;
   }
 }

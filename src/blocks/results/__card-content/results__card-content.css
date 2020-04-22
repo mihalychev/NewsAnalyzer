@@ -1,0 +1,9 @@
+.results__card-content {
+  padding: 20px 24px 24px 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .results__card-content {
+    padding: 16px;
+  }
+}

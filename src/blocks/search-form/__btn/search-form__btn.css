@@ -2,13 +2,14 @@
   cursor: pointer;
   border: 0;
   border-radius: 100px;
-  height: 64px;
+  height: 66px;
   background-color: #2f71e5;
   color: #fff;
   padding: 0 50px;
   transition: background .1s linear;
   position: relative;
   right: -2px;
+  outline: none;
 
   font-family: Roboto;
   font-style: normal;

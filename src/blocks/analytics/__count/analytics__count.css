@@ -1,5 +1,5 @@
 .analytics__count {
-  width: 27px;
+  /* width: 27px; */
   font-size: 12px;
   line-height: 16px;
 
@@ -15,7 +15,7 @@
   text-transform: uppercase;
 }
 
-.analytics__count_center {
+/* .analytics__count_center {
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
 
 .analytics__count:last-child {
   text-align: right;
-}
+} */
 
 .analytics__row:not(:last-child) td{
   padding-bottom: 28px;

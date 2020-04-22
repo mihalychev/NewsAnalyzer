@@ -5,12 +5,14 @@
   background-color: #fff;
   box-shadow: 0 10px 20px rgba(8, 29, 45, 0.01);
   transition: box-shadow .2s linear;
-
-  padding: 20px 24px 24px 24px; 
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .results__card_page_about {
   background-color: #f5f6f7;
+  /* padding: 20px 24px 24px 24px;  */
+  padding: 0;
 }
 
 .results__card_slider-cell {
@@ -24,11 +26,11 @@
   padding: 24px;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .results__card {
     padding: 16px;
   }
-}
+} */
 
 @media screen and (max-width: 1185px) {
   .results__card_slider-cell {

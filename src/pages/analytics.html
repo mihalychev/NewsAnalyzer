@@ -26,9 +26,9 @@
     </section>
     <p class="header__route inner">Главная <span class="grey">/ Аналитика</span></p>
     <section class="header__content header__content_theme_dark inner">
-      <h2 class="header__title header__title_theme_dark">Вы спросили: «Путешествия»</h2>
-      <p class="header__desc header__desc_theme_dark header__desc_analytics">Новостей за неделю: <strong>34 324</strong></p>
-      <p class="header__desc header__desc_theme_dark header__desc_analytics">Упоминаний в загаловках: <strong>235</strong></p>
+      <h2 class="header__title header__title_theme_dark">Вы спросили: «<span id='question'>Путешествия</span>»</h2>
+      <p class="header__desc header__desc_theme_dark header__desc_analytics">Новостей за неделю: <strong id='total'>34 324</strong></p>
+      <p class="header__desc header__desc_theme_dark header__desc_analytics">Упоминаний в заголовках: <strong id='mentions'>235</strong></p>
     </section>
   </header>
   <section class="results">
@@ -50,59 +50,59 @@
             <td colspan="5">
               <div class="analytics__count-container">
                 <span class="analytics__count">0</span>
-                <span class="analytics__count">25</span>
-                <span class="analytics__count analytics__count_center">50</span>
-                <span class="analytics__count analytics__count_right">75</span>
-                <span class="analytics__count analytics__count_right">100</span>
+                <span id='fourth' class="analytics__count"></span>
+                <span id='half' class="analytics__count analytics__count_center"></span>
+                <span id='threeFourth' class="analytics__count analytics__count_right"></span>
+                <span id='all' class="analytics__count analytics__count_right"></span>
               </div>
             </td>
           </tr>
         </thead>
         <tbody class="analytics__table-content">
           <tr class="analytics__row">
-            <td class="analytics__date">19, пн</td>
+            <td id='date' class="analytics__date">19, пн</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="15"></progress>
               <span class="analytics__percentage">15</span>
             </td>
           </tr>
           <tr class="analytics__row">
-            <td class="analytics__date">20, вт</td>
+            <td id='date' class="analytics__date">20, вт</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="18"></progress>
               <span class="analytics__percentage">18</span>
             </td>
           </tr>
           <tr class="analytics__row">
-            <td class="analytics__date">21, ср</td>
+            <td id='date' class="analytics__date">21, ср</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="11"></progress>
               <span class="analytics__percentage">11</span>
             </td>
           </tr>
           <tr class="analytics__row">
-            <td class="analytics__date">22, чт</td>
+            <td id='date' class="analytics__date">22, чт</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="39"></progress>
               <span class="analytics__percentage">39</span>
             </td>
           </tr>
           <tr class="analytics__row">
-            <td class="analytics__date">23, пт</td>
+            <td id='date' class="analytics__date">23, пт</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="45"></progress>
               <span class="analytics__percentage">45</span>
             </td>
           </tr>
           <tr class="analytics__row">
-            <td class="analytics__date">24, сб</td>
+            <td id='date' class="analytics__date">24, сб</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="73"></progress>
               <span class="analytics__percentage">73</span>
             </td>
           </tr>
           <tr class="analytics__row">
-            <td class="analytics__date">25, вс</td>
+            <td id='date' class="analytics__date">25, вс</td>
             <td colspan="5" class="analytics__bar-container">
               <progress class="analytics__bar" max="100" value="34"></progress>
               <span class="analytics__percentage">34</span>
@@ -115,10 +115,10 @@
             <td colspan="5">
               <div class="analytics__count-container analytics__count-container_foot">
                 <span class="analytics__count">0</span>
-                <span class="analytics__count">25</span>
-                <span class="analytics__count analytics__count_center">50</span>
-                <span class="analytics__count analytics__count_right">75</span>
-                <span class="analytics__count analytics__count_right">100</span>
+                <span id='fourth' class="analytics__count"></span>
+                <span id='half' class="analytics__count analytics__count_center"></span>
+                <span id='threeFourth' class="analytics__count analytics__count_right"></span>
+                <span id='all' class="analytics__count analytics__count_right"></span>
               </div>
             </td>
           </tr>
@@ -141,10 +141,10 @@
     </ul>
     <div class="footer__contacts">
       <a href="#" class="footer__social">
-        <img src="<%=require('../images/gh.svg').default%>" alt="1">
+        <img src="<%=require('../images/gh.svg').default%>" alt="github">
       </a>
       <a href="#" class="footer__social">
-        <img src="<%=require('../images/fb.svg').default%>" alt="2">
+        <img src="<%=require('../images/fb.svg').default%>" alt="facebook">
       </a>
     </div>
   </footer>
