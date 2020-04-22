@@ -8,7 +8,7 @@
   <title>NewsAnalyzer | Главная</title>
   <meta name="description" content="Сервис для анализа происходящих в мире событий">
   <meta name="author" content="Михалычев Максим">
-  <link rel="stylesheet" href="index.32c30146419df405524b.css">
+  <link rel="stylesheet" href="index.17cce21c6aaa38d979aa.css">
 </head>
 <body>
   <div class="root">
@@ -29,9 +29,9 @@
       <section class="header__content">
         <h2 class="header__title">Что в мире творится?</h2>
         <p class="header__desc">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
-        <form class="search-form">
-          <input class="search-form__input" type="text" placeholder="Введите тему новости">
-          <button class="search-form__btn" type="submit">Искать</button>
+        <form class="search-form" name="search">
+          <input class="search-form__input" name='searchInput' type="text" placeholder="Введите тему новости">
+          <button class="search-form__btn" name='searchBtn' type="submit">Искать</button>
         </form>
       </section>
     </header>
@@ -45,40 +45,12 @@
         <h3 class="not-found__title">Ничего не найдено</h3>
         <p class="not-found__desc">К сожалению по вашему запросу ничего не найдено</p>
       </article>
-      <article class="inner results__content">
+      <article class="inner results__content hidden">
         <div class="results__header">
           <h3 class="results__title">Результаты поиска</h3>
           <a href="analytics.html" class="results__analytics-link">Посмотреть аналитику &rsaquo;</a>
         </div>
         <section class="results__grid">
-          <a href="#" class="results__card">
-            <img src="./images/card1.png" alt="card1" class="results__img">
-            <div class="results__card-content">
-              <p class="results__date">2 августа, 2019</p>
-              <h4 class="results__card-title">Национальное достояние – парки</h4>
-              <p class="results__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-              <h5 class="results__site">Лента.ру</h5>
-            </div>
-          </a>
-          <a href="#" class="results__card">
-            <img src="./images/card2.png" alt="card2" class="results__img">
-            <div class="results__card-content">
-              <p class="results__date">2 августа, 2019</p>
-              <h4 class="results__card-title">Лесные огоньки: история одной фотографии</h4>
-              <p class="results__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного 
-                из местных чудес природы.</p>
-              <h5 class="results__site">Медуза</h5>
-            </div>  
-          </a>
-          <a href="#" class="results__card">
-            <img src="./images/card3.png" alt="card3" class="results__img">
-            <div class="results__card-content">
-              <p class="results__date">2 августа, 2019</p>
-              <h4 class="results__card-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-              <p class="results__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-              <h5 class="results__site">Риа</h5>
-            </div>
-          </a>
         </section>
         <button class="results__more-btn">Показать еще</button>
       </article>
@@ -117,6 +89,6 @@
     </footer>
   </div>
 
-  <script src="index.6a992de9648b6c1d73e9.js"></script>
+  <script src="index.12e6f2185744680b2ddd.js"></script>
 </body>
 </html>
