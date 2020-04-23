@@ -1,1 +1,0 @@
-import './pages/css/index.css'

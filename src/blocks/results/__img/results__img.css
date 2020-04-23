@@ -1,7 +1,9 @@
 .results__img {
   width: 100%;
   margin: auto;
-  height: auto;
+  height: 272px;
+  background-size: cover;
+  background-position: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   display: block;
@@ -9,4 +11,25 @@
 
 .results__img_page_about {
   max-width: 92px;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .results__img {
+    height: 150px;
+  }
+
+  .results__img_page_about {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .results__img {
+    height: 196px;
+  }
+
+  .results__img_page_about {
+    height: auto;
+  }
 }

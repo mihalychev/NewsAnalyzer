@@ -1,5 +1,4 @@
 const path = require('path')
-const webpack = require('webpack')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const WebpackMd5Hash = require('webpack-md5-hash')
@@ -7,9 +6,9 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
   entry: { 
-    'index': './src/index.js',
-    'about': './src/pages/about.js',
-    'analytics': './src/pages/analytics.js',
+    'index': './src/js/index.js',
+    'about': './src/js/about/about.js',
+    'analytics': './src/js/analytics/analytics.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
